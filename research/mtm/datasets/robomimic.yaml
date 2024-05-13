@@ -1,0 +1,10 @@
+# @package dataset
+_target_: research.mtm.datasets.robomimic.get_datasets
+seq_steps: ???
+noise: 0.05
+train_dataset_size: 10000
+val_dataset_size: 512
+discount: 1.5
+train_val_split: 0.95
+traj_length: 4
+
